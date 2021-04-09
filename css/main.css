@@ -1,0 +1,543 @@
+:root {
+    --main-color : #38E269;
+}
+
+@font-face {
+    font-family: 'font-regular';
+    src: url(../fonts/din-next-lt-w23-regular.ttf);
+}
+
+body {
+    font-family: 'font-regular';
+    overflow-x: hidden;
+}
+
+/* Start Nav */
+nav {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16)
+    ;
+}
+nav img {
+    width: 90px;
+}
+
+nav a {
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 10px 26px;
+    border-radius: 100px;
+    transition: 0.6s;
+}
+
+nav a:hover {
+    background-color: #1BAA44;
+    text-decoration: none;
+    color: #fff;
+}
+/* End Nav */
+
+/* Start Header */
+
+header {
+    background-image: url('../img/header-bg.png');
+    background-position: bottom;
+}
+header .intro {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 155px;
+    padding-bottom: 80px;
+}
+header .intro h1 {
+    color: var(--main-color);
+    line-height: 1.55;
+    margin-bottom: 40px;
+}
+header .intro p {
+    color: #000;
+    line-height: 1.7;
+    font-size: 21px;
+}
+/* End Header */
+
+.button1 a {
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 16px 40px;
+    border-radius: 100px;
+    transition: 0.6s;
+    margin-bottom: 14px;
+}
+.button1 a:hover {
+    background-color: #1BAA44;
+    text-decoration: none;
+    color: #fff;
+}
+.button1 a i {
+    padding-right: 10px;
+}
+
+/* Start Why Us */
+
+.why-us {
+    background-image: url('../img/why-ux.png');
+    background-position: top;
+}
+
+.why-us h1 {
+    color: var(--main-color);
+}
+.why-us p {
+    font-size: 21px;
+    color: #000;
+}
+.why-us .why-us-item {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 21px;
+}
+.why-us .why-us-item img {
+    width: 24px;
+    padding-bottom: 3px;
+}
+
+.why-us .why-us-item p {
+    font-size: 19px;
+    margin-bottom: 0;
+    margin-right: 8px;
+    padding-top: 4px;
+    display: inline !important;
+}
+
+
+/* End Why Us */
+
+/* Start Steps  */
+
+.steps h1 {
+    color: var(--main-color);
+    line-height: 1.50;
+}
+
+.steps p {
+    color: #000;
+    font-size: 21px;
+}
+
+/* End Steps */
+
+/* Start Course content */
+.course-content .content-item {
+    background-color: #DBDBDB;
+    border-radius: 0 25px 0 25px;
+    border: 2px solid var(--main-color);
+}
+.course-content .content-item .content-img {
+    display: inline-block;
+    border-left: 2px solid #363636;
+    float: right;
+    
+}
+.course-content .content-item .content-img img {
+    width: 70px;
+    height: 70px;
+}
+.course-content .content-item .content-text {
+    margin-right: 100px;
+}
+.course-content .content-item .content-text p {
+    font-size: 18px;
+    margin-left: 20px;
+    
+}
+/* Start Course content */
+
+/* Start Process */ 
+
+.process {
+    background-image: url('../img/why-ux.png');
+    background-position: top;
+}
+
+.process h1 {
+    color: var(--main-color);
+}
+.process p {
+    font-size: 21px;
+    color: #000;
+}
+.process .process-item {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 21px;
+}
+.process .process-item img {
+    width: 24px;
+    padding-bottom: 3px;
+}
+
+.process .process-item p {
+    font-size: 19px;
+    margin-bottom: 0;
+    margin-right: 8px;
+    padding-top: 4px;
+}
+
+.process .process-item p {
+    display: inline !important;
+}
+
+/* End process */
+
+/* Start features */
+
+.features {
+    background-image: url(../img/features-bg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.features h1 {
+    color: var(--main-color);
+}
+
+.features p {
+    font-size: 20px;
+}
+
+.features .feature-item {
+    background-color: #fff;
+    border-radius: 0 25px 0 25px;
+}
+.features .feature-item .feature-img {
+    display: inline-block;
+    float: right;
+}
+.features .feature-item .feature-img img {
+    width: 100px;
+    height: 120px;
+}
+.features .feature-item .feature-text {
+    margin-right: 125px;
+}
+.features .feature-item .feature-text p {
+    font-size: 18px;
+    margin-left: 60px;
+    margin-bottom: 0 !important;
+}
+.features .feature-item .feature-text p span {
+    font-size: 24px;
+}
+.features .feature-item .feature-btn {
+    background-color: var(--main-color);
+    display: inline-block;
+    color: #000;
+    float: left;
+    margin-left: -65px;
+    border-radius: 0 25px 0 25px;
+    margin-top: -120px;
+}
+
+.features .feature-n-item {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 21px;
+}
+.features .feature-n-item img {
+    width: 24px;
+    padding-bottom: 3px;
+}
+
+.features .feature-n-item p {
+    font-size: 19px;
+    margin-bottom: 0;
+    margin-right: 8px;
+    padding-top: 4px;
+}
+
+.features .feature-n-item.ps-4 p {
+    display: inline !important;
+}
+
+.feature-n-item p {
+    display: inline !important;
+}
+
+/* Start features */
+
+/* Start plans */
+
+.plans h1 {
+    color: var(--main-color);
+}
+
+.plans p {
+    font-size: 21px;
+}
+
+.plans .plan-item {
+    border-radius: 0 30px 0 30px;
+    padding-bottom: 1px;
+}
+
+.plans .plan-item h3 {
+    background-color: #282929;
+    color: #fff;
+    border-radius: 0 30px 0 30px;
+}
+
+.plans .plan-item h2 {
+    font-size: 45px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 0 15px 0 15px;
+    border: 2px solid #282929;
+}
+
+.plans .plan-item a {
+    display: block;
+    background-color: var(--main-color);
+    border-radius: 0 15px 0 15px;
+    margin: 15px;
+    margin-bottom: 0;
+    padding: 15px;
+    margin-bottom: 20px !important;
+    font-size: 18px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.plans .plan-item a:hover {
+    background-color: #1BAA44;
+    text-decoration: none;
+}
+
+/* End plans */
+
+/* Start menotor */
+
+.menotor h1 {
+    color: var(--main-color);
+}
+
+.menotor p {
+    font-size: 20px;
+}
+
+.menotor .menotor-image img {
+    width: 100% !important;
+}
+
+.menotor .exper-item {
+    background-color: #DBDBDB;
+    border: 1px solid var(--main-color);
+    border-radius: 0 15px 0 15px;
+}
+.menotor .exper-item img {
+    width: 50px;
+    height: 50px;
+}
+
+/* End menotor */
+.logos img {
+    width: 120px;
+    height: 120px;
+}
+
+.subscribe {
+    background-image: url(../img/subscrine.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.subscribe input {
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    width: 400px;
+}
+
+.subscribe button {
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: var(--main-color);
+    padding: 10px 20px;
+    position: absolute;
+    margin-right: -80px;
+    margin-top: 6px;
+
+}
+
+
+footer {
+    background-image: url('../img/footer.png');
+    background-color: #000;
+    background-size: cover;
+}
+
+footer img {
+    padding-bottom: 15px;
+    padding-top: 35px;
+}
+
+footer h5 {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgb(156, 156, 156);  
+}
+
+footer a {
+    display: block;
+    color: #fff;
+    margin-bottom: 12px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: var(--main-color);
+    text-decoration: none;
+}
+/* Classes */
+
+
+@media screen and (max-width: 768px) {
+
+    nav img {
+      width: 80px;
+    }
+    nav a {
+        padding: 6px 16px;
+    }
+    header .intro {
+        width: 100%;
+        padding-top: 130px;
+        padding-bottom: 65px;
+    }
+    header .intro h1 {
+        font-size:36px;
+    }
+    .why-us .why-us-item {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 21px;
+    }
+    .why-us p {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .process p {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .process .process-item {
+        width: 100%;
+    }
+    .process .process-item {
+        width: 100%;
+    }
+    .features h1 {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        font-size: 36px;
+    }
+    .features p {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .features .feature-n-item {
+        width: 100%;
+    }
+    .plans h1 {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;       
+    }
+    .steps h1 {
+        font-size: 36px;
+    }
+    .subscribe input {
+        width: 80%;
+    }
+    .steps img {
+        margin-top: 10px;
+        content:url('../img/steps-mob.svg');
+        width: 65% !important;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .course-content .content-item {
+        text-align: center !important;
+    }
+    .course-content .content-item .content-img {
+        width: 100%;
+        float: none !important;
+        border-left: none !important;
+        border-bottom: 2px solid #363636;
+    }
+    .course-content .content-item .content-img img {
+        display: inline-block;
+        float: none;
+    }
+    .course-content .content-item .content-text {
+        margin-right: 0 !important;
+    }
+    .course-content .content-item .content-text p {
+        display: inline;
+    }
+    
+
+    .features .feature-item {
+        text-align: center !important;
+    }
+    .features .feature-item .feature-img {
+        width: 100%;
+        float: none !important;
+        border-left: none !important;
+        border-bottom: 2px solid #363636;
+    }
+    .features .feature-item .feature-img img {
+        display: inline-block;
+        float: none;
+    }
+    .features .feature-item .feature-text {
+        margin-right: 0 !important;
+    }
+    .features .feature-item .feature-text p {
+        display: inline;
+    }
+    .features .feature-item .feature-btn {
+        display: block !important;
+        float: none !important;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+    }
+    .menotor p {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+}
